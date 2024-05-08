@@ -1,0 +1,64 @@
+body {
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.story {
+    background-color: white;
+    max-width: 1150px;
+    margin: 10px auto;
+    border: 1px solid #DFDFDF;
+    padding: 0 8px;
+}
+
+.story-top {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.story-text {
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 29px;
+    font-size: 18px;
+}
+
+.image {
+    max-width: 750px;
+    margin: 10px auto;
+    border: 1px solid #DFDFDF;
+    padding: 0;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.photo-caption {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.chart-container {
+    max-width: 750px;
+    margin: 10px auto;
+}
+
+.byline {
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+}
+
+.byline::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 0.2px solid black;
+    position: absolute;
+    bottom: -2px; /* Adjust this value to position the line as needed */
+}
